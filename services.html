@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-g">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Projects - My Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="services-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">About</a></li>
+          <li><a href="services.html" class="active">Projects</a></li>
+          <li><a href="portfolio.html">Certificates</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://www.linkedin.com/in/afrah-thahir-5554b2230/"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/afrahthahir"><i class="bi bi-github"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="services" class="services section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-ml">ML</li>
+            <li data-filter=".filter-ds">Data Science</li>
+            <li data-filter=".filter-dl">Deep Learning</li>
+            <li data-filter=".filter-nlp">NLP</li>
+          </ul><div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            
+            <div class="col-lg-4 col-md-6 isotope-item filter-nlp">
+              <div class="service-item h-100">
+                <div class="service-icon"><i class="bi bi-code-slash"></i></div>
+                <div class="service-content">
+                  <h3>Automated Cold Email Generator</h3>
+                  <p>An automated tool that generates personalized cold emails by scraping job descriptions and matching them with relevant projects from a vector database using LangChain and ChromaDB.</p>
+                  <a href="https://github.com/afrahthahir/Automated-Cold-Email-Generator" class="service-link"><span>Click to open project repo</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 isotope-item filter-nlp">
+              <div class="service-item h-100">
+                <div class="service-icon"><i class="bi bi-phone-fill"></i></div>
+                <div class="service-content">
+                  <h3>Souled Store Inventory Chatbot</h3>
+                  <p>An intelligent chatbot that answers questions by querying a SQL database using Natural Language. Built with LangChain, it understands user queries, converts them into SQL, and provides answers.</p>
+                  <a href="https://github.com/afrahthahir/Souled-Store-Inventory-Chatbot" class="service-link"><span>Click to open project repo</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 isotope-item filter-nlp">
+              <div class="service-item h-100">
+                <div class="service-icon"><i class="bi bi-patch-question"></i></div>
+                <div class="service-content">
+                  <h3>Free Code Camp Q&A RAG Chatbot</h3>
+                  <p>A question-answer system using a RAG pipeline to answer questions from a CSV of FAQs. Built with Streamlit, it uses a FAISS vector store to find relevant information for the LLM.</p>
+                  <a href="https://github.com/afrahthahir/Free-Code-Camp-Q-A-RAG-Chatbot" class="service-link"><span>Click to open project repo</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 isotope-item filter-nlp">
+              <div class="service-item h-100">
+                <div class="service-icon"><i class="bi bi-newspaper"></i></div>
+                <div class="service-content">
+                  <h3>News Article Chatbot with RAG</h3>
+                  <p>A Streamlit and LangChain chatbot that allows users to ask questions about the content of specific news articles, using a RAG pipeline to ensure responses are grounded in the provided text.</p>
+                  <a href="https://github.com/afrahthahir/News-Article-chatbot-with-RAG" class="service-link"><span>Click to open project repo</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 isotope-item filter-ml filter-ds">
+              <div class="service-item h-100">
+                <div class="service-icon"><i class="bi bi-car-front"></i></div>
+                <div class="service-content">
+                  <h3>Car Insurance Claim Analysis</h3>
+                  <p>A pipeline for analyzing car insurance claims, covering data cleaning, model training, and evaluation for both classification (claim occurrence) and regression (claim cost) tasks.</p>
+                  <a href="https://github.com/afrahthahir/Car-Insurance-claim-Prediction-using-XGBoost" class="service-link"><span>Click to open project repo</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 isotope-item filter-dl filter-nlp">
+              <div class="service-item h-100">
+                <div class="service-icon"><i class="bi bi-journal-bookmark-fill"></i></div>
+                <div class="service-content">
+                  <h3>Finetuning LLMs for Classification</h3>
+                  <p>Demonstrates how to finetune an LLM for classifying research papers into computer science categories, covering prompt engineering and parameter-efficient finetuning with LoRA.</p>
+                  <a href="https://github.com/afrahthahir/Finetuning-LLM-for-classification-tasks" class="service-link"><span>Click to open project repo</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 isotope-item filter-nlp">
+              <div class="service-item h-100">
+                <div class="service-icon"><i class="bi bi-card-list"></i></div>
+                <div class="service-content">
+                  <h3>Log Classification Framework</h3>
+                  <p>A hybrid log classification system combining three approaches to handle varying levels of complexity in log patterns, ensuring effective processing of predictable and complex data.</p>
+                  <a href="https://github.com/afrahthahir/Log-Classification-project" class="service-link"><span>Click to open project repo</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 isotope-item filter-nlp">
+              <div class="service-item h-100">
+                <div class="service-icon"><i class="bi bi-chat-dots"></i></div>
+                <div class="service-content">
+                  <h3>Pandeyji Eatery Chatbot</h3>
+                  <p>A food ordering assistant built using Dialogflow, FastAPI, and a MySQL backend that allows users to place, modify, and track food orders through a conversational interface.</p>
+                  <a href="https://github.com/afrahthahir/Chatbot-using-Dialogflow" class="service-link"><span>Click to open project repo</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 isotope-item filter-dl">
+              <div class="service-item h-100">
+                <div class="service-icon"><i class="bi bi-image"></i></div>
+                <div class="service-content">
+                  <h3>Potato Disease Prediction App</h3>
+                  <p>A crop disease prediction system using TensorFlow and CNNs. Deployed on Google Cloud Functions and integrated with a React web app to enable real-time disease detection for farmers.</p>
+                  <a href="https://github.com/afrahthahir/DeepLearning-Project" class="service-link"><span>Click to open project repo</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 isotope-item filter-ml">
+              <div class="service-item h-100">
+                <div class="service-icon"><i class="bi bi-house-door"></i></div>
+                <div class="service-content">
+                  <h3>Bangalore House Price Prediction</h3>
+                  <p>A full-stack data science project to build a real estate price prediction website, covering data cleaning, outlier removal, feature engineering, and model deployment with a Python Flask server.</p>
+                  <a href="https://github.com/afrahthahir/MachineLearning-and-DataScience-Projects/tree/main/Bangalore_House_Price_Predictor" class="service-link"><span>Click to open project repo</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 isotope-item filter-dl">
+              <div class="service-item h-100">
+                <div class="service-icon"><i class="bi bi-camera-video"></i></div>
+                <div class="service-content">
+                  <h3>Traffic Violation Detection (YOLOv5)</h3>
+                  <p>Leverages YOLOv5 to detect traffic violations (helmet-less and triple riding) from live video feeds, extracts license plates, and sends an automated report to authorities.</p>
+                  <a href="https://github.com/afrahthahir/yolov5-project-backup" class="service-link"><span>Click to open project repo</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 isotope-item filter-ds">
+              <div class="service-item h-100">
+                <div class="service-icon"><i class="bi bi-graph-up-arrow"></i></div>
+                <div class="service-content">
+                  <h3>Exploratory Data Analysis for IPL Auction</h3>
+                  <p>A detailed exploratory data analysis (EDA) of the IPL Auction 2023 dataset, using Pandas, Matplotlib, Seaborn, and Plotly to uncover insights and trends.</p>
+                  <a href="https://github.com/afrahthahir/Math-for-Data-Science/blob/main/EDA/iplauctionEDA.ipynb" class="service-link"><span>Click to open project repo</span><i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </div></div></div>
+
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
